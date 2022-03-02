@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  app:
+    build:
+      context: .
+    platform: linux/amd64
+    volumes:
+      - .:/app:cached
+    command:
+      - ':'

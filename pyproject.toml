@@ -1,0 +1,10 @@
+[tool.poetry]
+name = "Debug missing sep"
+version = "0.1.0"
+description = "Routing"
+authors = ["Tom Finill"]
+
+
+[tool.poetry.dependencies]
+python = "==3.10.2"
+pyproj = "==3.3.0"
